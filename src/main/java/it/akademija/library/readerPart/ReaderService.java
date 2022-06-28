@@ -2,7 +2,7 @@ package it.akademija.library.readerPart;
 
 import it.akademija.library.book.Book;
 import it.akademija.library.book.BookDAO;
-import it.akademija.library.model.User;
+import it.akademija.library.user.User;
 import it.akademija.library.user.UserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

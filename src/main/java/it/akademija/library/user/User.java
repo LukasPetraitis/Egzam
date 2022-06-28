@@ -1,4 +1,4 @@
-package it.akademija.library.model;
+package it.akademija.library.user;
 
 import it.akademija.library.book.Book;
 import it.akademija.library.constant.Role;

@@ -23,6 +23,22 @@ public class Book {
     public Book() {
     }
 
+    public Book(String title, String summary, String ISBN, Integer pageCount, Integer quantity) {
+        this.title = title;
+        this.summary = summary;
+        this.ISBN = ISBN;
+        this.pageCount = pageCount;
+        this.quantity = quantity;
+    }
+
+    public Book(Long id, String title, String summary, String ISBN, Integer pageCount, Integer quantity) {
+        this.id = id;
+        this.title = title;
+        this.summary = summary;
+        this.ISBN = ISBN;
+        this.pageCount = pageCount;
+        this.quantity = quantity;
+    }
 
     public Long getId() {
         return id;
